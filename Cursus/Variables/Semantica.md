@@ -1,0 +1,10 @@
+- Añadiendo "&" delante de una variable apuntamos a su valor de memoria 
+- Las constantes no se pueden manipular 
+    - Para retornar una constante string debemos hacer typecastear un puntero a esa variable ((char*)string) 
+- Convertir int en char 
+    - `Int ch = 'z';`  
+    - `Int c; char a; a = c` 
+- Var++ : se incrementa después de la operación
+- ++Var: se incrementa antes de la operación 
+- (void)var: para ignorar una variable que no utilizamos 
+- El sufijo LL se utiliza para especificar que un número entero debe ser tratado como un long long int (-2147483648LL).

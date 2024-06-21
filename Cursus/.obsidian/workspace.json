@@ -1,0 +1,189 @@
+{
+  "main": {
+    "id": "cc83c5469fcb5b53",
+    "type": "split",
+    "children": [
+      {
+        "id": "95c04994df2e8b96",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a4dcaa47b105fe1f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Estructuras/Listas.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c00db71d750d2d3a",
+    "type": "split",
+    "children": [
+      {
+        "id": "f27159a1123e85e6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a5832c9bdd95f55a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ad78d596fe362da1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3dc74cfc6d92b560",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "c202f62a1cff6176",
+    "type": "split",
+    "children": [
+      {
+        "id": "31dae2045e458df5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "efde332220e7b850",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Estructuras/Listas.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cb119618c4a1598e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Estructuras/Listas.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "118029e9c8957533",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e7a934564a174806",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Estructuras/Listas.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "a4dcaa47b105fe1f",
+  "lastOpenFiles": [
+    "IMG_20240621_152628.jpg",
+    "Errores/Segmentation fault.md",
+    "Estructuras/Listas.md",
+    "Estructuras/Struct.md",
+    "File Handling I-O/Teoria.md",
+    "File Handling I-O/Ejemplo.md",
+    "Funciones/Tipos.md",
+    "Libraries/Static.md",
+    "Libraries/Permitidas.md",
+    "Makefile/Estructura.md",
+    "Variables/Semantica.md",
+    "Variables/ASCII.md",
+    "Variables/Arrays.md",
+    "Variables/Argv-Argv.md",
+    "Punteros/Struct.md",
+    "Memoria/Valgrind.md",
+    "Memoria/Overflow.md",
+    "Memoria/Malloc.md",
+    "Makefile/Variables.md",
+    "[.md",
+    "Memoria",
+    "File Handling I-O/Untitled.canvas",
+    "File Handling I-O",
+    "2024-06-21.md",
+    "Untitled.canvas",
+    "Libraries",
+    "Makefile",
+    "Debugging/Gdb.md",
+    "Punteros",
+    "Untitled.md",
+    "Debugging",
+    "Errores",
+    "Funciones",
+    "Estructuras",
+    "Untitled/Welcome.md",
+    "Variables"
+  ]
+}

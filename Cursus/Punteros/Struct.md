@@ -1,0 +1,7 @@
+- -> se utiliza para acceder mediante puntero a los fields de una struc 
+    - `Persona p` 
+    - `p -> nombre` 
+    - `p -> edad` 
+- . se utiliza para acceder directamente a la variable de una struc 
+    - `p.nombre` 
+    - `p.edad`

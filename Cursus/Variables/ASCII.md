@@ -1,0 +1,2 @@
+- Int + '0' or 48 = char 
+- Char - '0' or 48 = int
