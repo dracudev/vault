@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "c202f62a1cff6176",
@@ -147,14 +146,15 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "a4dcaa47b105fe1f",
+  "active": "a5832c9bdd95f55a",
   "lastOpenFiles": [
-    "IMG_20240621_152628.jpg",
-    "Errores/Segmentation fault.md",
+    "IMG",
+    "IMG/IMG_20240621_152628.jpg",
     "Estructuras/Listas.md",
-    "Estructuras/Struct.md",
     "File Handling I-O/Teoria.md",
     "File Handling I-O/Ejemplo.md",
+    "Estructuras/Struct.md",
+    "Errores/Segmentation fault.md",
     "Funciones/Tipos.md",
     "Libraries/Static.md",
     "Libraries/Permitidas.md",
