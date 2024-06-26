@@ -21,3 +21,11 @@ Añadir un nodo nuevo delante en la lista
 `*lst = new;`
 
 ![[IMG_20240621_152628.jpg]]
+
+Moverse dentro de la lista
+- Nos movemos entre nodos
+	`while (lst != NULL)`
+		`lst = lst->next;`
+- Nos movemos entre contenidos
+	`while (lst->next != NULL)`
+		`lst = lst->next`

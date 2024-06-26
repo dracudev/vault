@@ -11,7 +11,11 @@
 - Por ejemplo, si tienes un archivo de prueba main.c que usa funciones de libft.a, el proceso de compilación podría verse así:
     - **gcc -o main main.c -L. -lft -I.** 
     - Debe estar el main, libft.a y libft.h en el directorio 
-    - gcc (compila) -o (en .o) main (con el nombre "main") main.c (el archivo main.c) -L. (la librería está en el directorio actual) -lft (la librería se llama lib_ft) -I. (el header/includes está en el directorio actual) 
+	    -`-o main`: indica que el archivo ejecutable se llamará `main`.
+		- `main.c`: es el archivo fuente que contiene tu función `main`.
+		- `-L.`: especifica que la biblioteca estática `libft.a` se encuentra en el directorio actual.
+		- `-lft`: indica al compilador que enlace la biblioteca estática `libft.a`.
+		- `-I.`: especifica que los archivos de cabecera (`libft.h`) se encuentran en el directorio actual.
 
 **#ifndef, #define y #endif** 
 
