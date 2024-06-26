@@ -29,3 +29,11 @@ Moverse dentro de la lista
 - Nos movemos entre contenidos
 	`while (lst->next != NULL)`
 		`lst = lst->next`
+
+Imprimir valores de la lista
+- Iteramos la lista imprimiendo el valor de lst->content typecasteando su tipo ya que son void. Avanzamos al siguiente nodo  de contenido en cada iteración.
+	`while (lst)`
+		`{`
+			`printf("%s", (char *)lst->content);`
+			`lst = lst->next;`
+		`}`

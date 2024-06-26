@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estructuras/Listas.md",
+                "file": "Funciones/Tipos.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Estructuras/Listas.md",
+                "file": "Funciones/Tipos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Estructuras/Listas.md",
+                "file": "Funciones/Tipos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estructuras/Listas.md"
+                "file": "Funciones/Tipos.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "a4dcaa47b105fe1f",
   "lastOpenFiles": [
-    "Errores/Segmentation fault.md",
     "Estructuras/Listas.md",
+    "Errores/Segmentation fault.md",
     "Estructuras/Struct.md",
     "Libraries/Static.md",
     "IMG",
