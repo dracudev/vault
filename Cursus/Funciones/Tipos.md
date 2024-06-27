@@ -3,7 +3,7 @@
 - **Static functions**: (static void function) añadiendo "static" delante del prototipo de una función nos aseguramos de que se mantenga en el ámbito local del fichero que la contiene. Permitiendo así trabajar con ella dentro del fichero pero que no sea posible invocarla fuera de él.  
     - Nos sirve para crear funciones de apoyo durante la creación de funciones principales 
 - **Función iterativa** es aquella que utiliza bucles (como for, while, do-while) para realizar tareas repetitivas, en lugar de llamarse a sí misma de manera recursiva. La iteración se refiere al proceso de repetir un conjunto de instrucciones un número determinado de veces o hasta que se cumpla una condición específica.  
-- Función recursiva es aquella que se llama a sí misma durante su ejecución. Este tipo de función debe tener una condición de terminación para evitar un bucle infinito y eventualmente resolver el problema por el que fue invocada.  
+- **Función recursiva** es aquella que se llama a sí misma durante su ejecución. Este tipo de función debe tener una condición de terminación para evitar un bucle infinito y eventualmente resolver el problema por el que fue invocada.  
     - Caso base: condición que detiene la recursión, devolviendo un valor 
     - Caso recursivo: la llamada a sí misma con diferentes argumentos para acercarse al caso base 
 - **Funciones con funciones** ft_function(*f)(var, var) 

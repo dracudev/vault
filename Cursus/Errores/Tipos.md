@@ -1,0 +1,2 @@
+- Segmentation Fault (Core dumped): estás intentando modificar una cadena literal. En C, las cadenas literales (`str = "Hola"`) están en una sección de solo lectura de la memoria. Debes usar un array de caracteres que si permite la edición (`str[] = "Hola"`)
+	- También puede ocurrir cuando intentas acceder a zonas de memoria prohibidas como salirte de un array, acceder a un puntero al que has hecho free, etc.
