@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Errores/Manejo de errores.md",
+                "file": "Variables/ASCII.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Errores/Manejo de errores.md",
+                "file": "Variables/ASCII.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Errores/Manejo de errores.md",
+                "file": "Variables/ASCII.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Errores/Manejo de errores.md"
+                "file": "Variables/ASCII.md"
               }
             }
           }
@@ -146,30 +146,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a4dcaa47b105fe1f",
+  "active": "a5832c9bdd95f55a",
   "lastOpenFiles": [
-    "Variables/Semantica.md",
     "Variables/Arrays.md",
-    "Variables/ASCII.md",
     "Variables/Argv-Argv.md",
     "Punteros/Struct.md",
     "Memoria/Valgrind.md",
     "Memoria/Overflow.md",
     "Memoria/Malloc.md",
-    "Makefile/Variables.md",
-    "Makefile/Estructura.md",
     "Libraries/Static.md",
     "Libraries/Permitidas.md",
+    "IMG/IMG_20240621_152628.jpg",
     "Funciones/Tipos.md",
+    "Errores/Manejo de errores.md",
     "Estructuras/Struct.md",
     "Estructuras/Listas.md",
-    "Debugging/Gdb.md",
-    "Errores/Tipos.md",
-    "Errores/Manejo de errores.md",
-    "IMG",
-    "IMG/IMG_20240621_152628.jpg",
     "File Handling I-O/Teoria.md",
     "File Handling I-O/Ejemplo.md",
+    "Makefile/Makefile.md",
+    "Makefile/Variables.md",
+    "Makefile/Estructura.md",
+    "Variables/Semantica.md",
+    "Variables/ASCII.md",
+    "Debugging/Gdb.md",
+    "Errores/Tipos.md",
+    "IMG",
     "[.md",
     "Memoria",
     "File Handling I-O/Untitled.canvas",

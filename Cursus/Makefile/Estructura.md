@@ -19,4 +19,4 @@ Makefile recompila únicamente aquellos archivos cuya fecha de modificación se 
     - %.o: %.c (A partir de cualquier archivo.c puedo generar archivo.o) 
     - Carpeta1/%.o: carpeta1/%.c (Podemos compilar por carpetas) 
 
-Con \ escapamos los saltos de línea pudiendo seguir escribiendo en la siguiente línea.
+Con \\ escapamos los saltos de línea pudiendo seguir escribiendo en la siguiente línea.
