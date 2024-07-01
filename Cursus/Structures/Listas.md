@@ -37,3 +37,5 @@ Imprimir valores de la lista
 			`printf("%s", (char *)lst->content);`
 			`lst = lst->next;`
 		`}`
+
+https://www.learn-c.org/en/Linked_lists
