@@ -11,6 +11,10 @@ short smallNumber = 5;
 ```c
 long largeNumber = 100000L;
 ```
+- **long long**: Used for long long integers.
+```c
+long long MIN_INT = -2147483648LL;
+```
 - **unsigned int**: Used for unsigned integers (only positive values).
 ```C
 unsigned int positiveNumber = 20;

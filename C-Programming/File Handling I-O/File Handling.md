@@ -1,10 +1,4 @@
-The `fcntl.h` library in C provides advanced file control operations. Below are key functions and their usage.
-
-```c
-#include <fcntl.h>
-#include <unistd.h>
-```
-
+The `fcntl.h` and `unistd.h` libraries in C provides advanced file control operations. Below are key functions and their usage.
 ### open()
 
 - **Description**: Open a file.
