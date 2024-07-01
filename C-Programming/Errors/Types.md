@@ -95,4 +95,4 @@ int main() {
 
 - **Understanding**: Read compiler error messages carefully to identify the specific error types and their causes.
 - **Addressing Issues**: Fix syntax errors, type mismatches, and undefined symbol issues by reviewing and correcting the corresponding parts of the code.
-- **Utilizing Tools**: Use compiler flags (`-Wall`, `-Werror`) to enable warnings and treat them as errors for stricter code validation.
+- **Utilizing Tools**: Use compiler flags (`-Wall`, `-Wextra`, `-Werror`) to enable warnings and treat them as errors for stricter code validation.
