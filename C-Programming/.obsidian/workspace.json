@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Variables/Data Types.md",
+                "file": "Printf/1. Basic Functionality.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Variables/Data Types.md",
+                "file": "Printf/1. Basic Functionality.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Variables/Data Types.md",
+                "file": "Printf/1. Basic Functionality.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Variables/Data Types.md"
+                "file": "Printf/1. Basic Functionality.md"
               }
             }
           }
@@ -148,33 +148,34 @@
   },
   "active": "a4dcaa47b105fe1f",
   "lastOpenFiles": [
-    "Punteros/Struct.md",
-    "Variables/Data Types.md",
     "Printf/6. Error Handling.md",
     "Printf/5. Output Handling.md",
     "Printf/4. String Processing.md",
+    "Printf/3. Variable Arguments.md",
     "Printf/2. Format Specifiers.md",
     "Printf/1. Basic Functionality.md",
-    "Memoria/Valgrind.md",
-    "Memoria/Overflow.md",
-    "Memoria/Malloc.md",
-    "Makefile/Estructura.md",
-    "Makefile/Makefile.md",
-    "Makefile/Variables.md",
-    "Libraries/Static.md",
-    "Funciones/Tipos.md",
+    "Syntax/Semantica.md",
+    "Syntax/Control Structures.md",
+    "Syntax/Variables/Scope.md",
+    "Syntax/Variables/Constants.md",
+    "Syntax/Variables/Data Types.md",
+    "Syntax/Variables/Operators.md",
+    "Syntax/Variables",
+    "Syntax/Arrays.md",
+    "Structures/Listas.md",
+    "Structures/Struct.md",
+    "Structures/Untitled.md",
+    "File Handling I-O/File Handling.md",
+    "File Handling I-O/Example.md",
     "File Handling I-O/Teoria.md",
-    "File Handling I-O/Ejemplo.md",
     "Errors/Types.md",
+    "Errors/Runtime Errors.md",
+    "Errors/Other Errors.md",
     "Errors/Error Handling.md",
     "Debugging/Gdb.md",
-    "Printf/3. Variable Arguments.md",
-    "Structures/Untitled.md",
-    "Structures/Struct.md",
-    "Structures/Listas.md",
+    "Syntax/Punteros/Struct.md",
+    "Memoria/Valgrind.md",
     "Printf",
-    "Variables/Semantica.md",
-    "Variables/ASCII.md",
     "IMG",
     "IMG/IMG_20240621_152628.jpg",
     "Memoria",
@@ -183,9 +184,8 @@
     "Untitled.canvas",
     "Libraries",
     "Makefile",
-    "Punteros",
+    "Syntax/Punteros",
     "Debugging",
-    "Errors",
-    "Funciones"
+    "Errors"
   ]
 }
