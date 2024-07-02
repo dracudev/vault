@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Errors/Other Errors.md",
-                "mode": "preview",
+                "file": "File Handling I-O/Example.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Errors/Other Errors.md",
+                "file": "File Handling I-O/Example.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Errors/Other Errors.md",
+                "file": "File Handling I-O/Example.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Errors/Other Errors.md"
+                "file": "File Handling I-O/Example.md"
               }
             }
           }
@@ -148,34 +148,37 @@
   },
   "active": "064372a51591f65c",
   "lastOpenFiles": [
-    "Errors/Types.md",
-    "Syntax/Functions/Behaviour.md",
-    "Syntax/Structures/Struct.md",
-    "Syntax/Structures/Untitled.md",
-    "Syntax/Structures/Listas.md",
-    "Debugging/Gdb.md",
+    "IMG/IMG_20240621_152628.jpg",
     "File Handling I-O/Example.md",
     "File Handling I-O/File Handling.md",
-    "2024-07-01.md",
-    "Untitled.canvas",
-    "Syntax/POR REVISAR.md",
-    "Errors/Error Handling.md",
-    "Syntax/Functions/Variadic Functions.md",
+    "POR REVISAR.md",
+    "Syntax/Variables/Strings.md",
+    "Syntax/Variables/Arrays.md",
+    "Syntax/Pointers/Strings as pointers.md",
+    "Syntax/Pointers/Operations.md",
+    "Syntax/Pointers/Declaration.md",
+    "Syntax/Control Structures.md",
     "Syntax/Command-line Arguments.md",
-    "Libraries/Static.md",
-    "Libraries/Permitidas.md",
-    "Makefile/Estructura.md",
-    "Makefile/Libft Makefile.md",
-    "Memoria/Valgrind.md",
-    "Memoria/Overflow.md",
-    "Memoria/Malloc.md",
     "Syntax/Arrays.md",
-    "IMG/IMG_20240621_152628.jpg",
-    "Errors/Other Errors.md",
-    "Errors/Runtime Errors.md",
-    "Syntax/Variables/Operators.md",
-    "Syntax/Variables/Data Types.md",
-    "Syntax/Variables/Constants.md",
+    "Syntax/Structures/Typedef.md",
+    "Syntax/Structures/Struct.md",
+    "Syntax/Structures/Listas.md",
+    "Syntax/Structures/Linked List/Removing specific.md",
+    "Syntax/Structures/Linked List/Removing last.md",
+    "Syntax/Structures/Linked List/Removing first.md",
+    "Syntax/Structures/Linked List/Adding to the front.md",
+    "Syntax/Structures/Linked List/Adding to the end.md",
+    "Syntax/Structures/Linked List/Nodes.md",
+    "Syntax/Structures/Linked List/Linked List.md",
+    "Syntax/Structures/Linked List/Iterating over a list.md",
+    "Syntax/Structures/Linked List/Untitled",
+    "Syntax/Structures/Linked List",
+    "Syntax/Structures/Untitled.md",
+    "IMG/Pasted image 20240702104824.png",
+    "Syntax/Variables/Untitled",
+    "Syntax/Functions/Variadic Functions.md",
+    "Printf/1. Basic Functionality.md",
+    "Untitled.canvas",
     "Syntax/Variables",
     "Printf",
     "IMG",
@@ -183,9 +186,6 @@
     "File Handling I-O/Untitled.canvas",
     "File Handling I-O",
     "Libraries",
-    "Makefile",
-    "Syntax/Pointers",
-    "Debugging",
-    "Errors"
+    "Makefile"
   ]
 }

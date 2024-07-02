@@ -1,9 +1,0 @@
-- *str: se indica el puntero cuando hacemos referencia a sus índices 
-    - `while (*str)` 
-    - `str++;` 
-- Sumando un numero entero a un string hacemos referencia al valor de su índice de posición 
-    - `*str = caracoles` 
-    - `str + 4 = coles` 
-    - `&str[4] = coles` 
-- Declarar un array de arrays 
-    - `char *strs[] = {"Texto", "Texto", "Texto"};`

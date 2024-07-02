@@ -4,6 +4,11 @@
       "type": "file",
       "ctime": 1719870756216,
       "path": "Syntax/Functions/Variadic Functions.md"
+    },
+    {
+      "type": "folder",
+      "ctime": 1719907512969,
+      "path": "Printf"
     }
   ]
 }

@@ -1,24 +1,32 @@
-`typedef struct {` 
-	`tipo field;` 
-	`tipo field;` 
-	`tipo field;` 
-`} nombreStruc;` 
+Structures (`structs`) in C allow you to group variables of different types under a single name. This is useful for representing complex data types.
 
-`typedef struct s_list {` 
-	 `char nombre[50];` 
-	 `int edad;` 
-	 `float altura;` 
- `} t_list;` 
+### Declaration
 
-Por norma s_list (structure) y t_list(type) 
-Después se declaran e inician como un tipo de variable normal: 
-`Persona persona1;` 
-`persona1 = {"Maria Lopez", 28, 1.65};` 
+To declare a structure, you use the `struct` keyword followed by the structure name and the body enclosed in braces.
+```c
+struct Person {
+    char name[50];
+    int age;
+    float height;
+};
+```
 
-- -> se utiliza para acceder mediante puntero a los fields de una struct 
-    - `Persona p` 
-    - `p->nombre` 
-    - `p->edad` 
-- . Se utiliza para acceder directamente al valor de la variable de la struct.
-    - `p.nombre` 
-    - `p.edad`
+### Defining and Accessing Struct Variables
+
+After declaring a structure, you can define variables of that type.
+```c
+struct Person person1;
+```
+
+You can access and modify the members of a struct using the dot (`.`) operator.
+```c
+strcpy(person1.name, "Alice");
+person1.age = 30;
+person1.height = 5.7;
+```
+### Initialization
+
+Structures can also be initialized at the time of definition.
+```c
+struct Person person2 = {"Bob", 25, 6.0};
+```
