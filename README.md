@@ -13,8 +13,8 @@
 | [Structure](C-Programming/Makefile/Structure.md) |                          | [Output Handling](C-Programming/Printf/Output%20Handling.md) | [Recursive Functions](C-Programming/Syntax/Functions/Recursive%20Functions.md) |
 |                           |                          | [Error Handling](C-Programming/Printf/Error%20Handling.md) | [Static Functions](C-Programming/Syntax/Functions/Static%20Functions.md) |
 | **Pointers**       | **Structures**    | **Variables**          | **Other Topics**           |
-| [Declaration](C-Programming/Syntax/Pointers/Declaration.md) | [Linked List](C-Programming/Syntax/Structures/Linked%20List) | [Arrays](C-Programming/Syntax/Variables/Arrays.md) | [Command-line Arguments](C-Programming/Command-line%20Arguments) |
-| [Operations](C-Programming/Syntax/Pointers/Operations.md) | [Struct](C-Programming/Syntax/Structures/Struct.md) | [Constants](C-Programming/Syntax/Variables/Constants.md) | [Control Structures](C-Programming/Control%20Structures) |
+| [Declaration](C-Programming/Syntax/Pointers/Declaration.md) | [Linked List](C-Programming/Syntax/Structures/Linked%20List) | [Arrays](C-Programming/Syntax/Variables/Arrays.md) | [Command-line Arguments](C-Programming/Syntax/Command-line%20Arguments) |
+| [Operations](C-Programming/Syntax/Pointers/Operations.md) | [Struct](C-Programming/Syntax/Structures/Struct.md) | [Constants](C-Programming/Syntax/Variables/Constants.md) | [Control Structures](C-Programming/Syntax/Control%20Structures) |
 | [Strings as pointers](C-Programming/Syntax/Pointers/Strings%20as%20pointers.md) | [Typedef](C-Programming/Syntax/Structures/Typedef.md) | [Data Types](C-Programming/Syntax/Variables/Data%20Types.md) | [ASCII](C-Programming/ASCII.md) |
 |                           |                          | [Operators](C-Programming/Syntax/Variables/Operators.md) | [42 Notes](C-Programming/42%20Notes.md) |
 |                           |                          | [Scope](C-Programming/Syntax/Variables/Scope.md) |                        |
