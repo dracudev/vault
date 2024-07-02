@@ -1,4 +1,0 @@
-- Para evitar el desbordamiento de integers debemos tener en cuenta su máximo y lanzar un error cuando se supere. 
-- Por ejemplo en ft_calloc(size_t count, size_t size) nos aseguramos que la multiplicación de ambas variables no supere el size_t máximo --> (size_t) - 1. 
-    - `If (size != 0 && n > (size_t) - 1 / size) { return (NULL) }` 
-    - En este caso al dividir la máxima expresión de size_t entre size obtendremos el máximo de veces que podemos multiplicar por n sin que haya desbordamiento.

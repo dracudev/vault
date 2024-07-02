@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "File Handling I-O/Example.md",
+                "file": "File Handling I-O/File Handling.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ae27d7648e67e650",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "42 Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "adec54b16fcd7824",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "42 Notes.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "File Handling I-O/Example.md",
+                "file": "42 Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "File Handling I-O/Example.md",
+                "file": "42 Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "File Handling I-O/Example.md"
+                "file": "42 Notes.md"
               }
             }
           }
@@ -146,43 +171,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "064372a51591f65c",
+  "active": "adec54b16fcd7824",
   "lastOpenFiles": [
-    "IMG/IMG_20240621_152628.jpg",
-    "File Handling I-O/Example.md",
-    "File Handling I-O/File Handling.md",
-    "POR REVISAR.md",
-    "Syntax/Variables/Strings.md",
-    "Syntax/Variables/Arrays.md",
-    "Syntax/Pointers/Strings as pointers.md",
+    "ASCII.md",
+    "42 Notes.md",
     "Syntax/Pointers/Operations.md",
+    "Syntax/Pointers/Strings as pointers.md",
     "Syntax/Pointers/Declaration.md",
-    "Syntax/Control Structures.md",
-    "Syntax/Command-line Arguments.md",
-    "Syntax/Arrays.md",
-    "Syntax/Structures/Typedef.md",
-    "Syntax/Structures/Struct.md",
-    "Syntax/Structures/Listas.md",
-    "Syntax/Structures/Linked List/Removing specific.md",
-    "Syntax/Structures/Linked List/Removing last.md",
-    "Syntax/Structures/Linked List/Removing first.md",
-    "Syntax/Structures/Linked List/Adding to the front.md",
-    "Syntax/Structures/Linked List/Adding to the end.md",
-    "Syntax/Structures/Linked List/Nodes.md",
-    "Syntax/Structures/Linked List/Linked List.md",
-    "Syntax/Structures/Linked List/Iterating over a list.md",
+    "Syntax/Variables/Typecasting.md",
+    "Syntax/Variables/Operators.md",
+    "Debugging/Valgrind.md",
+    "Memory/Malloc.md",
+    "Memory/Overflow.md",
+    "Memory/Overleap.md",
+    "Makefile/Example (Libft).md",
+    "Makefile/Estructura.md",
+    "Makefile/Implicit Rules.md",
+    "Makefile/Pattern Rules.md",
+    "Makefile/Recompilation.md",
+    "Makefile/Variables.md",
+    "Makefile/Structure.md",
+    "File Handling I-O/File Handling.md",
+    "Libraries/Permitidas.md",
+    "Libraries/Static Libraries.md",
+    "Libraries/Inclusion Guards.md",
+    "Libraries/Headers.md",
+    "Libraries/Static.md",
+    "Syntax/Functions/Void Functions.md",
+    "Syntax/Functions/Variadic Functions.md",
+    "IMG/Pasted image 20240702104824.png",
+    "IMG/IMG_20240621_152628.jpg",
     "Syntax/Structures/Linked List/Untitled",
     "Syntax/Structures/Linked List",
-    "Syntax/Structures/Untitled.md",
-    "IMG/Pasted image 20240702104824.png",
     "Syntax/Variables/Untitled",
-    "Syntax/Functions/Variadic Functions.md",
-    "Printf/1. Basic Functionality.md",
     "Untitled.canvas",
     "Syntax/Variables",
     "Printf",
     "IMG",
-    "Memoria",
+    "Memory",
     "File Handling I-O/Untitled.canvas",
     "File Handling I-O",
     "Libraries",

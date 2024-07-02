@@ -1,1 +1,0 @@
-Herramienta del terminal para detectar errores en la memoria como overflows, fugas de memoria, accesos ilegales a memoria, uso de memoria no inicializada, etc.

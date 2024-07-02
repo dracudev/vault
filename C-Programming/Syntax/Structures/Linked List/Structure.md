@@ -1,6 +1,12 @@
 A linked list is a linear data structure where each element is a separate object, called a node. Each node contains data and a reference (or link) to the next node in the sequence. If the pointer is NULL, then it is the last node in the list.
 
-![[Pasted image 20240702104824.png]]
+```c
+    ------------------------------              ------------------------------
+    |              |             |            \ |              |             |
+    |     DATA     |     NEXT    |--------------|     DATA     |     NEXT    |
+    |              |             |            / |              |             |
+    ------------------------------              ------------------------------
+```
 
 Linked lists have a few advantages over arrays:
 

@@ -58,3 +58,14 @@ Struct members are accessed using the arrow (`->`) operator when using pointers 
 strcpy(personPtr->name, "John");
 personPtr->age = 30;
 ```
+
+### Adding an Integer to a Pointer
+
+When you add an integer to a pointer (`str + n`), you move the pointer forward or backward in the array by `n` elements, where each element depends on the size of the data type the pointer points to.
+```c
+char *str = "caracoles";
+
+// Moving pointer 'str' forward by 4 positions
+printf("%s\n", str + 4);   // Outputs: "coles"
+printf("%s\n", &str[4]);   // Also outputs: "coles"
+```
