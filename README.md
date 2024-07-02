@@ -25,7 +25,7 @@
 
 | **Debugging**             | **Errors**               | **File Handling I/O**       | **Libraries**              |
 |---------------------------|--------------------------|-----------------------------|----------------------------|
-| [Gdb](Vault/C-Programming/Debugging/Gdb.md)      | [Error Handling](Vault/C-Programming/Errors/Error%20Handling.md) | [Example](Vault/C-Programming/File%20Handling%20I-O/Example.md) | [Headers](Vault/C-Programming/Libraries/Headers.md) |
+| [Gdb](C-Programming/Debugging/Gdb.md)      | [Error Handling](Vault/C-Programming/Errors/Error%20Handling.md) | [Example](Vault/C-Programming/File%20Handling%20I-O/Example.md) | [Headers](Vault/C-Programming/Libraries/Headers.md) |
 | [Valgrind](Vault/C-Programming/Debugging/Valgrind.md) | [Other Errors](Vault/C-Programming/Errors/Other%20Errors.md) | [File Handling](Vault/C-Programming/File%20Handling%20I-O/File%20Handling.md) | [Inclusion Guards](Vault/C-Programming/Libraries/Inclusion%20Guards.md) |
 |                           | [Runtime Errors](Vault/C-Programming/Errors/Runtime%20Errors.md) |                               | [Static Libraries](Vault/C-Programming/Libraries/Static%20Libraries.md) |
 | **Makefile**              | **Memory**               | **Printf**                    | **Functions**       |
