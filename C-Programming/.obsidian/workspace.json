@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Syntax/Functions/Variadic Functions.md",
+                "file": "Printf/2. Format Specifiers.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "18aa02dc658fb851",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "42 Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7601f4c04d8e69b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Number Bases.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -65,8 +90,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Syntax/Functions/Variadic Functions.md",
+                "file": "Number Bases.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Syntax/Functions/Variadic Functions.md",
+                "file": "Number Bases.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Syntax/Functions/Variadic Functions.md"
+                "file": "Number Bases.md"
               }
             }
           }
@@ -147,16 +171,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8ccb4ecd78f2b36e",
+  "active": "7601f4c04d8e69b1",
   "lastOpenFiles": [
     "42 Notes.md",
+    "Number Bases.md",
+    "Syntax/Pointers/Strings as pointers.md",
+    "Syntax/Functions/Variadic Functions.md",
+    "Printf/2. Format Specifiers.md",
+    "Printf/6. Error Handling.md",
+    "Printf/5. Output Handling.md",
+    "Printf/3. Variable Arguments.md",
+    "Printf/1. Basic Functionality.md",
     "File Handling I-O/File Handling.md",
     "Libraries/Inclusion Guards.md",
     "Libraries/Headers.md",
     "Libraries/Static Libraries.md",
     "ASCII.md",
     "Syntax/Pointers/Operations.md",
-    "Syntax/Pointers/Strings as pointers.md",
     "Syntax/Pointers/Declaration.md",
     "Syntax/Variables/Typecasting.md",
     "Syntax/Variables/Operators.md",
@@ -168,13 +199,6 @@
     "Makefile/Estructura.md",
     "Makefile/Implicit Rules.md",
     "Makefile/Pattern Rules.md",
-    "Makefile/Recompilation.md",
-    "Makefile/Variables.md",
-    "Makefile/Structure.md",
-    "Libraries/Permitidas.md",
-    "Libraries/Static.md",
-    "Syntax/Functions/Void Functions.md",
-    "Syntax/Functions/Variadic Functions.md",
     "IMG/Pasted image 20240702104824.png",
     "IMG/IMG_20240621_152628.jpg",
     "Syntax/Structures/Linked List/Untitled",
