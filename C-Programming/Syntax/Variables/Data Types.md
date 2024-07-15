@@ -19,6 +19,13 @@ long long MIN_INT = -2147483648LL;
 ```C
 unsigned int positiveNumber = 20;
 ```
+- **size_t**: data type defined in the C standard library (`<stddef.h>`) designed to represent the maximum size of an object that can exist in the specific platform where the code runs.
+	- In 32-bit systems, it is typically 4 bytes (32 bits), while in 64-bit systems, it is usually 8 bytes (64 bits).
+	- Used to express sizes of objects in memory, such as the size of an array or the number of elements in a data structure.
+	- Functions like `malloc`, `strlen`, `sizeof` return or take `size_t` as arguments to express sizes.
+```c
+size_t length = 0;
+```
 
 ## Floating-Point Types
 

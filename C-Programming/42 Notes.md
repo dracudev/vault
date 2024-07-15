@@ -4,4 +4,4 @@
 	- `<stdddef.h>` 
 	- `<limits.h>`
 - $Enum
-- $Bases (hexadecimal, etc.)
+- $lldb

@@ -39,48 +39,64 @@ To convert a given integer into its hexadecimal representation.
 
 Here's a simple implementation of a hexadecimal conversion function in C:
 ```c
-#include <stdio.h>
+void ft_hexadecimal(unsigned int x)
+{
+    char str[25];  // Buffer to store the hexadecimal digits
+    char *base;    // Pointer to the character set for hexadecimal conversion
+    int i;         // Index variable for iterating through str array
 
-// Function to convert integer to hexadecimal and print it
-void decimalToHexadecimal(int num) {
-    // Array to store hexadecimal digits
-    char hex[100];
-    int i = 0;
+    base = "0123456789ABCDEF";
+    i = 0;  // Initialize index variable
 
-    // Handling special case for 0
-    if (num == 0) {
-        printf("Hexadecimal: 0\n");
-        return;
+    // Handle special case when x is 0
+    if (x == 0)
+    {
+        ft_putchar('0');  // Output '0'
+        return;           // Exit the function
     }
 
-    // Process each digit
-    while (num != 0) {
-        int remainder = num % 16;
-        if (remainder < 10)
-            hex[i++] = remainder + '0';
-        else
-            hex[i++] = remainder + 'A' - 10;
-        num = num / 16;
+    // Convert x to hexadecimal and store in the str array
+    while (x != 0)
+    {
+        str[i] = base[x % 16];  // Convert remainder of x divided by 16 to hexadecimal digit
+        x = x / 16;             // Divide x by 16 to shift to the next hexadecimal digit
+        i++;                    // Move to the next position in the str array
     }
 
-    // Print hexadecimal in reverse order
-    printf("Hexadecimal: ");
-    for (int j = i - 1; j >= 0; j--)
-        printf("%c", hex[j]);
-    printf("\n");
+    // Output the hexadecimal digits stored in str array in reverse order
+    while (i--)
+        ft_putchar(str[i]);  // Output each character of str in reverse order
 }
 
-int main() {
-    int number = 2348;
-    decimalToHexadecimal(number);
-    return 0;
-}
 ```
 
 ### Explanation
 
-- **Function `decimalToHexadecimal`**:
-    - Accepts an integer (`num`) and converts it into its hexadecimal representation.
-    - Uses `%` to get remainders which are then mapped to hexadecimal digits.
-    - Divides the number by 16 until it becomes zero.
-    - Outputs the hexadecimal digits in reverse order to get the correct representation.
+- **Initialization**:
+    
+    - `str[25]`: This array (`str`) is used to store the hexadecimal digits temporarily. It has a size of 25, which is enough to store a 32-bit unsigned integer in hexadecimal (including the terminating null character).
+    - `base`: This pointer points to a character array that contains the hexadecimal digits.
+    - `i`: This integer variable is used as an index to keep track of where to store characters in the `str` array.
+- **Handling the Special Case (x == 0)**:
+    
+    - If `x` is equal to 0, it simply outputs `'0'` using the `ft_putchar` function and returns from the function early.
+- **Converting to Hexadecimal**:
+    
+    - The function enters a `while` loop that continues until `x` becomes 0.
+    - Inside the loop:
+        - `str[i] = base[x % 16];`: Computes the remainder of `x` divided by 16 (`x % 16`) and uses it as an index into the `base` array to fetch the corresponding hexadecimal digit. This digit is then stored in the `str` array at position `i`.
+        - `x = x / 16;`: Updates `x` by integer division with 16 (`x / 16`), effectively shifting `x` right by one hexadecimal digit.
+        - `i++;`: Increments `i` to move to the next position in the `str` array for the next hexadecimal digit.
+- **Outputting the Hexadecimal Representation**:
+    
+    - After the `while` loop completes, `i` now holds the number of digits in the hexadecimal representation minus one.
+    - The function then enters another `while` loop where it outputs each character stored in `str` in reverse order (`str[i]`) using `ft_putchar`.
+    - This effectively prints the hexadecimal number stored in `str` in the correct order.
+- **Example**
+	- Let's say `x = 26` (decimal), which is `1A` in hexadecimal.
+	- During conversion:
+	    - `base[26 % 16]` gives remainder `10` which in the base array is `'A'`, so `str[0]` is `'A'`.
+	    - `x = 26 / 16` gives `1`, so `base[1 % 16]` gives `'1'`, so `str[1]` is `'1'`.
+	    - `x = 1 / 16` gives `0`, so conversion stops.
+	- `str` now contains `'1'` in `str[1]` and `'A'` in `str[0]`.
+	- The result is printed in reverse order.
