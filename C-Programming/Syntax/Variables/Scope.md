@@ -18,11 +18,24 @@ void function() {
 ```
 ### Static Variables
 
-- **Static Variables**: Retain their value between function calls. Local static variables have function scope but persist for the program's lifetime.
+A static variable in C is a variable that retains its value between multiple function calls. It is initialized only once and exists for the lifetime of the program, but its scope is limited to the block in which it is defined.
+
 ```c
-void function() {
-    static int staticVar = 0; // Static local variable
-    staticVar++;
-    printf("Static variable: %d\n", staticVar);
+#include <stdio.h>
+
+void count_calls() {
+    static int count = 0; // Static variable
+    count++;
+    printf("Function called %d times\n", count);
+}
+
+int main() {
+    for (int i = 0; i < 5; i++) {
+        count_calls();
+    }
+    return 0;
 }
 ```
+- **Local Static Variables:** Defined within a function and retain their value between calls to that function.
+- **Global Static Variables:** Defined outside of all functions and are accessible only within the file in which they are declared.
+
