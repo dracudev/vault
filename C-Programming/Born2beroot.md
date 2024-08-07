@@ -1,0 +1,24 @@
+- su: iniciar root
+- sudo apt
+	- update: actualizar todos los packages
+	- install nombrepackage: instalar packages
+- sudo adduser nombreuser: anadir usuario
+- sudo addgroup nombregrupo: crear nuevo grupo
+	- getent group nombregrupo: ver si existe el grupo
+	- cat /etc/group: ver todos los grupos y usuarios dentro
+	- sudo adduser nombreuser nombregroup: anadir usuario al grupo
+- sudo service ssh
+	- status: ver si ssh esta activo
+	- estart: reiniciar ssh si haces cambios
+- sudo ufw
+	- enable: activar firewall
+	- allow 4242: permitir conexiones en el puerto
+	- status: mirar estado cortafuegos
+- sudo chage 
+	- -l nombreuser: ver politica de contrasenas de ese usuario
+	- -m <time> <nombreuser>: cambiar el minimo de dias entre cambio de contrasena
+	- -M <time> <nombreuser>: cambiar el maximo de dias entre cambio de contrasena
+- ip a: ver ip
+	- inet 10.11.250.163/16
+	- VM -> network -> attached to -> bridge adapter
+	-  ssh antandre@10.11.250.163 -p 4242
