@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "Born2beroot.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -161,8 +161,10 @@
   },
   "active": "3936d139a98607e9",
   "lastOpenFiles": [
-    "Number Bases.md",
+    "Untitled.md",
+    "Untitled 1.md",
     "Born2beroot.md",
+    "Number Bases.md",
     "Pasted image 20240807164036.png",
     "Syntax/Variables/Scope.md",
     "File Handling I-O/Example.md",
@@ -186,7 +188,6 @@
     "ASCII.md",
     "Syntax/Pointers/Operations.md",
     "Syntax/Pointers/Declaration.md",
-    "Syntax/Variables/Typecasting.md",
     "IMG/Pasted image 20240702104824.png",
     "IMG/IMG_20240621_152628.jpg",
     "Syntax/Structures/Linked List/Untitled",
