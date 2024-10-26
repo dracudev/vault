@@ -1,49 +1,68 @@
 {
   "main": {
-    "id": "cc83c5469fcb5b53",
+    "id": "bf5dc920bd83cf36",
     "type": "split",
     "children": [
       {
-        "id": "7968e0ce27638847",
+        "id": "14a09477010c2a61",
         "type": "tabs",
         "children": [
           {
-            "id": "a7b46aa39cc0b205",
+            "id": "c10916dfd8e0e5b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Syntax/Structures/Linked List/Structure.md",
+                "file": "Bootstrap/Components.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Components"
+            }
+          },
+          {
+            "id": "9aa84c4c0a533aaf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bootstrap/Styles.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Styles"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "c00db71d750d2d3a",
+    "id": "952a96a7c907aa85",
     "type": "split",
     "children": [
       {
-        "id": "f27159a1123e85e6",
+        "id": "5e2465e47c56f12a",
         "type": "tabs",
         "children": [
           {
-            "id": "a5832c9bdd95f55a",
+            "id": "150651d052370424",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
-            "id": "ad78d596fe362da1",
+            "id": "f762d04011f4c78a",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -54,38 +73,42 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
-            "id": "3dc74cfc6d92b560",
+            "id": "6008314475d0b33a",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "c202f62a1cff6176",
+    "id": "00f5139ae9451ca5",
     "type": "split",
     "children": [
       {
-        "id": "31dae2045e458df5",
+        "id": "5a4b3dff265ecad8",
         "type": "tabs",
         "children": [
           {
-            "id": "efde332220e7b850",
+            "id": "282c2015a170d10b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Syntax/Structures/Linked List/Structure.md",
+                "file": "Bootstrap/Styles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,40 +116,48 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Styles"
             }
           },
           {
-            "id": "cb119618c4a1598e",
+            "id": "389ce004162b2bc7",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Syntax/Structures/Linked List/Structure.md",
+                "file": "Bootstrap/Styles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Styles"
             }
           },
           {
-            "id": "118029e9c8957533",
+            "id": "91e3b184a279117f",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
-            "id": "e7a934564a174806",
+            "id": "8c77e4253104c417",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Syntax/Structures/Linked List/Structure.md"
-              }
+                "file": "Bootstrap/Styles.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Styles"
             }
           }
         ]
@@ -146,46 +177,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a7b46aa39cc0b205",
+  "active": "9aa84c4c0a533aaf",
   "lastOpenFiles": [
-    "ASCII.md",
-    "42 Notes.md",
-    "Number Bases.md",
-    "Born2beroot.md",
-    "Syntax/Structures/Linked List/Adding to the end.md",
-    "Syntax/Structures/Linked List/Adding to the front.md",
-    "Syntax/Structures/Linked List/Iterating over a list.md",
-    "Syntax/Structures/Linked List/Nodes.md",
-    "Syntax/Structures/Linked List/Removing first.md",
-    "Syntax/Structures/Linked List/Removing last.md",
-    "Syntax/Structures/Linked List/Removing specific.md",
-    "Syntax/Structures/Linked List/Structure.md",
-    "Minilibx/Functions.md",
-    "Memoria/Valgrind.md",
-    "Syntax/Variables/Typecasting.md",
-    "Syntax/Variables/Strings.md",
-    "Syntax/Variables/Arrays.md",
-    "Syntax/Structures/Typedef.md",
-    "Syntax/Structures/Linked List",
-    "Syntax/Pointers/Strings as pointers.md",
-    "Memoria/Overflow.md",
-    "Memoria/Malloc.md",
-    "Makefile/Variables.md",
-    "Libraries/Static.md",
-    "Libraries/Permitidas.md",
-    "IMG/IMG_20240621_152628.jpg",
-    "File Handling I-O/File Handling.md",
-    "File Handling I-O/Example.md",
-    "Untitled.canvas",
-    "Syntax/Variables",
-    "Printf",
-    "IMG",
-    "Memoria",
-    "File Handling I-O/Untitled.canvas",
-    "File Handling I-O",
-    "Libraries",
-    "Makefile",
-    "Syntax/Pointers",
-    "Debugging"
+    "Bootstrap/Flex.md",
+    "Bootstrap/Components.md",
+    "JavaScript/Arrays.md",
+    "JavaScript/Condicionales.md",
+    "JavaScript/Strings.md",
+    "JavaScript/Operadores.md",
+    "JavaScript/Tipos de datos.md",
+    "JavaScript/Variables.md",
+    "Bootstrap/Styles.md",
+    "JavaScript",
+    "Bootstrap"
   ]
 }
