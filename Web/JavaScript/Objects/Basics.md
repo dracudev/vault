@@ -1,116 +1,50 @@
+| Concept              | Description                                                              | Syntax Example                                                                                     |
+| -------------------- | ------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------- |
+| Object Creation      | Creates a new object using `{}` or `new Object()`.                       | `let obj = {};`                                                                                    |
+| Property Access      | Accesses or assigns properties using dot notation or bracket notation.   | `obj.name = "John";` or `obj["name"] = "John";`                                                    |
+| Object Methods       | Functions that belong to an object, defined as properties.               | `let obj = { greet: function() { console.log("Hello!"); } }; obj.greet();`                         |
+| `this` Keyword       | Refers to the object itself inside a method.                             | `let obj = { name: "John", greet: function() { console.log(this.name); } }; obj.greet();`          |
+| Object Destructuring | A convenient way to extract values from objects into variables.          | `let { name, age } = obj;`                                                                         |
+| Object Constructor   | A function used to create objects, allowing object creation using `new`. | `function Person(name, age) { this.name = name; this.age = age; } let p = new Person("John", 30);` |
 ```js
-// Objetos
+// Object Creation
+let obj = {};  // Creates an empty object
 
-// Sintaxis
+// Property Access (dot notation)
+obj.name = "John";  // Adding property to the object
+console.log(obj.name);  // "John"
 
-let person = {
-    name: "Brais",
-    age: 37,
-    alias: "MoureDev"
+// Property Access (bracket notation)
+obj["age"] = 30;
+console.log(obj["age"]);  // 30
+
+// Object Methods
+let obj = {
+  greet: function() {
+    console.log("Hello!");
+  }
+};
+obj.greet();  // "Hello!"
+
+// `this` Keyword
+let obj = {
+  name: "John",
+  greet: function() {
+    console.log(this.name);
+  }
+};
+obj.greet();  // "John"
+
+// Object Destructuring
+let obj = { name: "John", age: 30 };
+let { name, age } = obj;
+console.log(name, age);  // "John", 30
+
+// Object Constructor
+function Person(name, age) {
+  this.name = name;
+  this.age = age;
 }
-
-// Acceso a propiedades
-
-// Notación punto
-console.log(person.name)
-
-// Notación de corchetes
-console.log(person["name"])
-
-// Modificación de propiedades
-
-person.name = "Brais Moure"
-console.log(person.name)
-
-console.log(typeof person.age)
-person.age = "37"
-console.log(person.age)
-console.log(typeof person.age)
-
-// Eliminación de propiedades
-
-delete person.age
-
-console.log(person)
-
-// Nueva propiedad
-
-person.email = "braismoure@mouredev.com"
-person["age"] = 37
-
-console.log(person)
-
-// Métodos (funciones)
-
-let person2 = {
-    name: "Brais",
-    age: 37,
-    alias: "MoureDev",
-    walk: function () {
-        console.log("La persona camina.")
-    }
-}
-person2.walk()
-
-// Anidación de objetos
-
-let person3 = {
-    name: "Brais",
-    age: 37,
-    alias: "MoureDev",
-    walk: function () {
-        console.log("La persona camina.")
-    },
-    job: {
-        name: "Programador",
-        exp: 15,
-        work: function () {
-            console.log(`La persona de ${this.age} años de experiencia trabaja.`)
-        }
-    }
-}
-
-console.log(person3)
-
-console.log(person3.name)
-console.log(person3.job)
-console.log(person3.job.name)
-person3.job.work()
-
-// Igualdad de objetos
-
-let person4 = {
-    name: "Brais Moure",
-    alias: "MoureDev",
-    email: "braismoure@mouredev.com",
-    age: 37
-}
-
-console.log(person)
-console.log(person4)
-
-console.log(person == person4)
-console.log(person === person4)
-
-console.log(person.name == person4.name)
-
-// Iteración
-
-for (let key in person4) {
-    console.log(key + ": " + person4[key])
-}
-
-// Funciones como objetos
-
-function Person(name, age) { // Debería ser una clase
-    this.name = name
-    this.age = age
-}
-
-let person5 = new Person("Brais", 37)
-console.log(person5)
-console.log(person5.name)
-
-console.log(typeof person5)
-console.log(typeof person4)
+let p = new Person("John", 30);
+console.log(p.name, p.age);  // "John", 30
 ```
