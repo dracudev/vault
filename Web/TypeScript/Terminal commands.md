@@ -1,3 +1,4 @@
+
 | Command         | Description                                                                                     |
 | --------------- | ----------------------------------------------------------------------------------------------- |
 | `tsc`           | Transpiles TypeScript code to JavaScript by compiling `.ts` files.                              |
