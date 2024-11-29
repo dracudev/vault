@@ -33,3 +33,14 @@ export function Component() {
   );
 }
 ```
+
+### States on URL
+
+```jsx
+import { useSearchParams } from "react-router";
+
+export function SomeComponent() {
+  const [searchParams, setSearchParams] = useSearchParams();
+  // ...
+}
+```

@@ -19,10 +19,10 @@ const Container = styled.div`
   text-align: center;
 `
 
-export function Component($primary) {
+export function Component({ children, className, $primary, ...props }) {
 	return (
 	<>
-		<Button $primary={$primary}></Button>
+		<Button className={className} $primary={$primary} {...props}>{children}</Button>
 		<Container></Container>
 	</>
 	)

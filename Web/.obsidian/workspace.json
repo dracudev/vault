@@ -8,49 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7d1245fc6127f5f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSS/Animations and Transitions.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Animations and Transitions"
-            }
-          },
-          {
-            "id": "dfb96ee14cbd15e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NPM/Basics.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Basics"
-            }
-          },
-          {
             "id": "38acc7547fc75b89",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Methods/Process.md",
+                "file": "React/Conditional Render.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Process"
+              "title": "Conditional Render"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -193,16 +164,19 @@
   },
   "active": "38acc7547fc75b89",
   "lastOpenFiles": [
-    "React/Terminal Commands.md",
-    "React/Styled Components.md",
-    "React/Routing.md",
     "React/Hooks.md",
+    "React/Routing.md",
+    "React/Conditional Render.md",
+    "React/Styled Components.md",
+    "React/Terminal Commands.md",
+    "2024-11-28.md",
+    "Sin título.canvas",
+    "JavaScript/Methods/Process.md",
     "React",
     "CSS/Bootstrap/Utility Classes.md",
     "CSS/Bootstrap/Text.md",
     "TypeScript/Terminal commands.md",
     "JavaScript/Methods/Array Transform.md",
-    "JavaScript/Methods/Process.md",
     "JavaScript/Methods/Strings.md",
     "NPM/Basics.md",
     "TypeScript/Basics.md",
@@ -219,10 +193,7 @@
     "CSS/Shadows and Borders.md",
     "CSS/Responsive Media.md",
     "CSS/Grid.md",
-    "CSS/Flex Box.md",
-    "CSS/Box Model.md",
     "CSS/Basics",
-    "Sin título.canvas",
     "TypeScript",
     "JavaScript/Testing",
     "JavaScript/Objects",
