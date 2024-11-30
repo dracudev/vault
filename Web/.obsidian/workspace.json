@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/Conditional Render.md",
+                "file": "CSS/Tailwind/Configuration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Conditional Render"
+              "title": "Configuration"
             }
           }
         ]
@@ -164,22 +164,29 @@
   },
   "active": "38acc7547fc75b89",
   "lastOpenFiles": [
-    "React/Hooks.md",
-    "React/Routing.md",
-    "React/Conditional Render.md",
-    "React/Styled Components.md",
     "React/Terminal Commands.md",
+    "React/Styled Components.md",
+    "React/Routing.md",
+    "React/Hooks.md",
+    "React/Folder Structure.md",
+    "React/Conditional Render.md",
+    "CSS/Tailwind/Configuration.md",
+    "TypeScript/tsconfig.json.md",
+    "TypeScript/Interfaces - Types.md",
+    "TypeScript/Basics.md",
+    "TypeScript/Terminal commands.md",
+    "CSS/Advanced/Animations and Transitions.md",
+    "CSS/Advanced",
+    "CSS/Tailwind",
     "2024-11-28.md",
     "Sin título.canvas",
     "JavaScript/Methods/Process.md",
     "React",
     "CSS/Bootstrap/Utility Classes.md",
     "CSS/Bootstrap/Text.md",
-    "TypeScript/Terminal commands.md",
     "JavaScript/Methods/Array Transform.md",
     "JavaScript/Methods/Strings.md",
     "NPM/Basics.md",
-    "TypeScript/Basics.md",
     "NPM",
     "JavaScript/Methods/Object.md",
     "TypeScript/Interfaces.md",
@@ -188,18 +195,11 @@
     "JavaScript/Structure Control/Data Structures.md",
     "JavaScript/Structure Control/Conditionals.md",
     "JavaScript/Objects/Promises.md",
-    "JavaScript/Objects/Basics.md",
-    "JavaScript/Methods/Array Loop.md",
-    "CSS/Shadows and Borders.md",
-    "CSS/Responsive Media.md",
-    "CSS/Grid.md",
     "CSS/Basics",
     "TypeScript",
     "JavaScript/Testing",
     "JavaScript/Objects",
     "JavaScript/Funciones",
-    "JavaScript/Methods",
-    "CSS",
-    "JavaScript/Structure Control"
+    "JavaScript/Methods"
   ]
 }
