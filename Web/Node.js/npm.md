@@ -1,3 +1,4 @@
+
 | Command                  | Description                                                                                              |
 | ------------------------ | -------------------------------------------------------------------------------------------------------- |
 | `npm init`               | Initializes a new Node.js project by creating a `package.json` file.                                     |

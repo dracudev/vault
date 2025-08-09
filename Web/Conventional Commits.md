@@ -1,0 +1,11 @@
+- `feat:` for new features
+- `fix:` for bug fixes
+- `refactor:` for code refactoring (no feature or fix)
+- `docs:` for documentation changes
+- `style:` for formatting, missing semi colons, etc.
+- `test:` for adding or updating tests
+- `chore:` for maintenance tasks (build, deps, etc.)
+- `perf:` for performance improvements
+- `ci:` for CI/CD changes
+- `build:` for build system changes
+- `revert:` for reverting previous commits

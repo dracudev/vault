@@ -126,3 +126,43 @@ function FilteredList() {
   );
 }
 ```
+
+## **7. Acceding current URL with `useLocation`**
+
+The `useLocation` hook in React Router is used to access the current location object, which represents where the app is now, including information about the URL path, search parameters, and hash fragment.
+
+Here's a step-by-step explanation of how `useLocation` works:
+
+1. **Import the Hook**: First, you need to import `useLocation` from `react-router-dom`.
+2. **Call the Hook**: Inside your functional component, call `useLocation` to get the current location object.
+3. **Access Location Properties**: The location object contains properties such as `pathname`, `search`, and `hash` that you can use to get information about the current URL.
+
+Here's an example:
+
+```tsx
+import { useLocation } from 'react-router-dom';
+
+const MyComponent = () => {
+  const location = useLocation();
+
+  console.log(location.pathname); // Current path
+  console.log(location.search);   // Query string
+  console.log(location.hash);     // Hash fragment
+
+  return (
+    <div>
+      <p>Current Path: {location.pathname}</p>
+      <p>Query String: {location.search}</p>
+      <p>Hash Fragment: {location.hash}</p>
+    </div>
+  );
+};
+```
+
+In this example:
+
+- `location.pathname` gives you the current path (e.g., `/home`).
+- `location.search` gives you the query string (e.g., `?name=John`).
+- `location.hash` gives you the hash fragment (e.g., `#section1`).
+
+This hook is useful for accessing and reacting to changes in the URL within your components.
